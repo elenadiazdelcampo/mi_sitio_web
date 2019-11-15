@@ -1375,8 +1375,8 @@ width:110px;
   }
 
   .rede{
-  width: 90px;
-  height: 90px; 
+  width: 70px;
+  height: 70px; 
   float: left;
   margin-left: 10px;
   transition: all 0.4s ease-out; 
@@ -1384,16 +1384,16 @@ width:110px;
   }
   .first{
     margin-top: 100px;
-    margin-left: 50px; 
+    margin-left: 30px; 
     margin-bottom: 20px;
-    width: 400px;
+    width: 300px;
     height: 150px; 
   }
 
   .icone{
     margin: 0px auto;
-    padding: 25px;
-    width: 40px;
+    padding: 15px;
+    width: 30px;
   }
    article#inicio {
     font: 7px;
