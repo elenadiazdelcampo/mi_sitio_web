@@ -1327,6 +1327,13 @@ width:110px;
     font-size: 5px;
   }
 
+  header a{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 10px;
+  }
+
   #boletin h1{
     margin-top: 40px;
   }
@@ -1342,6 +1349,84 @@ width:110px;
 
 }
 
+
+@media(max-width: 300px){
+  header #marca, 
+  header nav, 
+  header li, 
+  #boletin h1, 
+  #boletin form, 
+  article#main-col, 
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  header ul li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 130%;
+  }
+
+  .rede{
+  width: 90px;
+  height: 90px; 
+  float: left;
+  margin-left: 10px;
+  transition: all 0.4s ease-out; 
+  border-radius: 50%; 
+  }
+  .first{
+    margin-top: 100px;
+    margin-left: 50px; 
+    margin-bottom: 20px;
+    width: 400px;
+    height: 150px; 
+  }
+
+  .icone{
+    margin: 0px auto;
+    padding: 25px;
+    width: 40px;
+  }
+   article#inicio {
+    font: 7px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .flexslider p{
+    font-size: 5px;
+  }
+
+  header a{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 7px;
+  }
+
+  #boletin h1{
+    margin-top: 40px;
+  }
+
+  #boletin form imput[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  input, textarea{
+    width: 98%;
+  }
+
+}
 
 @media(max-width: 200px){
   header #marca, 
