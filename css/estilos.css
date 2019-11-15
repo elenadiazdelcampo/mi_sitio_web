@@ -1,27 +1,33 @@
 /*Elena diaz*/
 
 body{
-	font: 15px Arial, Helvetica, sans-serif; 
-	padding: 0;
-	margin: 0;
-	background-color: #f4f4f4;
+  font: 15px Arial, Helvetica, sans-serif; 
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
 /* Estilos globales */
 .contenedor{
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor1{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .cont{
-	width: 100%;
-	float: left;
+  width: 100%;
+  float: left;
 }
 
 ul{
-	margin: 0;
-	padding: 10;
+  margin: 0;
+  padding: 10;
 }
 
 .boton1{
@@ -63,13 +69,13 @@ ul{
 }
 
 /*Encabezado*/
-header{
-	background:#24282b;
-	color:#ffffff;
-	padding-top:30px;
-	min-height:70px;
-	border-bottom:#CD5C93 5px solid;
-	padding-bottom: 40px;
+header {
+  background:#24282b;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#CD5C93 5px solid;
+  padding-bottom: 10px;
 }
 
 hr {
@@ -79,43 +85,48 @@ hr {
 }
 
 header a{
-	color:#ffffff;
- 	text-decoration:none;
+  color:#ffffff;
+  text-decoration:none;
   text-transform: uppercase;
-  font-size:16px;
+  font-size:30px;
 }
 
+header ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
 header li{
-	float: left;
-	float:left;
-  display:inline;
-  padding: 0 30px 0 30px;
+  float:center;
+  
+  /*display:inline-flex;*/
+  padding: 0 50px 0 50px;
   margin-bottom: 10px;
   font: 30px Arial, Helvetica, sans-serif;
 }
 
 header #marca{
-	float: center;
+  float: center;
 }
 
 header #marca h1{
-	margin: 0;
-  text-align: center;	
+  margin: 0;
+  text-align: center; 
 }
 
 header nav{
-	float: center;
-	margin-top: 10px;
+  float: center;
+  margin-top: 10px;
 }
 
 header .resaltado, header .actual a{
-	color: #CD5C93;
-	font-weight: bold;
+  color: #CD5C93;
+  font-weight: bold;
 }
 
 header a:hover{
-	color: #ccc;
-	font-weight: bold;
+  color: #ccc;
+  font-weight: bold;
 }
 
 .second a:hover{
@@ -154,13 +165,13 @@ header a:hover{
 }
 
 #cabecera h1{
-	margin-top: 100px;
-	font-size: 55px;
-	margin-bottom: 10px;
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
 }
 
 #cabecera p{
-	font-size: 20px;
+  font-size: 20px;
 }
 
 
@@ -238,8 +249,8 @@ article#main-col{
 }
 
 article#inicio{
-	font: 25px Arial, Helvetica, sans-serif; 
-	text-align: justify;
+  font: 25px Arial, Helvetica, sans-serif; 
+  text-align: justify;
   padding-top: 50px;
   padding-right: 50px;
   padding-left: 50px;
@@ -281,12 +292,14 @@ ul#servicios li{
   margin-left: 320px; 
   margin-bottom: 20px;
   width: 1025px;
-  height: 150px;
+  height: 150px; 
+
 }
 
 .rede{
   width: 150px;
   height: 150px; 
+ 
   float: left;
   margin-left: 20px;
   transition: all 0.4s ease-out; 
@@ -301,11 +314,13 @@ ul#servicios li{
 
 .rede#facebook{
   background-color: #3b5998;
+ 
 }
 
 .rede#instagram{
  /* background-color: #b00;*/
  /*width:100px; height:100px;*/
+
 background: #f09433;
  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
@@ -315,16 +330,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 .rede#twitter{
   background-color: #00acee;
+
 }
 
 .rede#snap{
   background-color: #007dbb;
+
 }
 
 .icone{
   margin: 0px auto;
   padding: 35px;
   width: 80px;
+  
 } /*Fin Redes sociales abajo*/
 
 /* Estilos para el formulario de contacto */
@@ -390,8 +408,8 @@ input[type='submit']{
 }
 
 #yo{
-	margin-top: 80px;
-	padding: 20px;
+  margin-top: 80px;
+  padding: 20px;
   transform: rotate(90deg);
 }
 
@@ -1166,3 +1184,81 @@ width:110px;
   }
 }
 /*Fin del acordeon de conocimientos*/
+
+@media(max-width: 760px){
+  header #marca, 
+  header nav, 
+  header li, 
+  #boletin h1, 
+  #boletin form, 
+  article#main-col, 
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  header ul li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 130%;
+  }
+
+  #boletin h1{
+    margin-top: 40px;
+  }
+
+  #boletin form imput[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  input, textarea{
+    width: 98%;
+  }
+
+}
+
+@media(max-width: 450px){
+  header #marca, 
+  header nav, 
+  header li, 
+  #boletin h1, 
+  #boletin form, 
+  article#main-col, 
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  header ul li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 130%;
+  }
+
+  #boletin h1{
+    margin-top: 40px;
+  }
+
+  #boletin form imput[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  input, textarea{
+    width: 98%;
+  }
+
+}
