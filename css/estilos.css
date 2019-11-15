@@ -1298,6 +1298,11 @@ width:110px;
       font-size: 130%;
   }
 
+  .lineeeee, .linee, .liine, .liiine, .lineeee, .lineee, .line {
+        min-width: 300px;
+        max-width: 300px;
+  }
+
   .rede{
   width: 60px;
   height: 60px; 
