@@ -1202,6 +1202,47 @@ width:110px;
     padding-bottom: 20px;
   }
 
+  header li{
+  float:center;
+  padding: 0 15px 0 15px;
+  }
+
+  .rede{
+  width: 90px;
+  height: 90px; 
+ 
+  float: left;
+  margin-left: 10px;
+  transition: all 0.4s ease-out; 
+  border-radius: 50%; 
+}
+
+
+.first{
+  /*padding: 60px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color:#1293d4;
+  margin-left: 50px auto; 
+  margin-right: 50px auto; */
+  margin-top: 100px;
+  margin-left: 50px; 
+  margin-bottom: 20px;
+  width: 400px;
+  height: 150px; 
+
+}
+
+.icone{
+  margin: 0px auto;
+  padding: 25px;
+  width: 40px;
+}
+
+   article#inicio {
+    font-size: 15px;
+  }
+
   .flexslider .flex-caption p{
     font-size: 30px;
   }
@@ -1217,11 +1258,11 @@ width:110px;
    top: 10%;
   left: 48%;
   }
-  header ul li{
+  header a{
       float: none;
       width: 100%;
       text-align: center;
-      font-size: 130%;
+      font-size: 15px;
   }
 
   #boletin h1{
@@ -1263,6 +1304,10 @@ width:110px;
       font-size: 130%;
   }
 
+   article#inicio {
+    font: 7px;
+  }
+
   .flexslider p{
     font-size: 5px;
   }
@@ -1274,6 +1319,65 @@ width:110px;
   #boletin form imput[type="email"]{
     width: 100%;
     margin-bottom: 5px;
+  }
+
+  input, textarea{
+    width: 98%;
+  }
+
+}
+
+
+@media(max-width: 200px){
+  header #marca, 
+  header nav, 
+  header li, 
+  #boletin h1, 
+  #boletin form, 
+  article#main-col, 
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  .flexslider .flex-caption p{
+    font-size: 30px;
+  }
+
+  .flexslider .flex-caption1 p{
+    font-size: 30px;
+    top: 10%;
+    left: 27%;
+  }
+
+  .flexslider .flex-caption2 p{
+    font-size: 30px;
+   top: 10%;
+  left: 48%;
+  }
+  header ul li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 130%;
+  }
+
+  #boletin h1{
+    margin-top: 40px;
+  }
+
+  #boletin form imput[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  article#inicio {
+    font: 7px;
   }
 
   input, textarea{
