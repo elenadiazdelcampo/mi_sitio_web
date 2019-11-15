@@ -1288,6 +1288,9 @@ width:110px;
     padding-bottom: 20px;
   }
 
+  .contene {
+    margin: 20px;
+  }
   header ul li{
       float: none;
       width: 100%;
