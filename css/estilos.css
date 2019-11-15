@@ -1318,6 +1318,9 @@ width:110px;
   }
    article#inicio {
     font: 7px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .flexslider p{
