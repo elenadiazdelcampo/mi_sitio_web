@@ -14,6 +14,13 @@ body{
   overflow: hidden;
 }
 
+.contenedor2{
+  width: 100%;
+  margin: 10px 30px 10px 260px;
+  overflow: hidden;
+}
+
+
 .contenedor1{
   width: 80%;
   margin: auto;
@@ -243,10 +250,19 @@ aside#foto2{
 
 /* Main-col */
 article#main-col{
+  float:center;
+  width:65%;
+  padding-top: 50px;
+}
+
+
+article#main-col2{
   float:left;
   width:65%;
   padding-top: 50px;
 }
+
+
 
 article#inicio{
   font: 25px Arial, Helvetica, sans-serif; 
@@ -289,7 +305,7 @@ ul#servicios li{
   margin-left: 50px auto; 
   margin-right: 50px auto; */
   margin-top: 100px;
-  margin-left: 320px; 
+  margin-left: 420px; 
   margin-bottom: 20px;
   width: 1025px;
   height: 150px; 
@@ -353,6 +369,7 @@ input, textarea{
   border: 1px solid gray; 
   margin-bottom: 10px;
   border-radius: 10px;
+  
 }
 
 textarea{
@@ -364,12 +381,31 @@ input[type='submit']{
   color: #030808;  
   font-weight: bold;
 }
+
+/* 7 margin-left: 230px;
+}*/
 /*article#main-col h1{
   text-align: center;
   font-family: 'Lobster Two', cursive;
 }*/
 
 /* Media Queries */
+
+@media(max-width: 768px){
+   article#main-col{
+    float: left;
+    
+    width:100%;
+   }
+
+   .contenedor2{
+    width: 90%;
+    margin: 10px 20px 10px 20px;
+    overflow: hidden;
+
+   }
+
+}
 @media(max-width: 768px){
   header #marca,
   header nav,
@@ -377,7 +413,7 @@ input[type='submit']{
   #boletin h1,
   #boletin form,
   #cajas .caja,
-  article#main-col,
+  /*article#main-col,*/
   aside#lateral{
     float:none;
     text-align:center;
@@ -1191,7 +1227,7 @@ width:110px;
   header li, 
   #boletin h1, 
   #boletin form, 
-  article#main-col, 
+  /*article#main-col, */
   aside#lateral {
     float: none;
     text-align: center;
@@ -1277,7 +1313,7 @@ width:110px;
   header li, 
   #boletin h1, 
   #boletin form, 
-  article#main-col, 
+  /*article#main-col, */
   aside#lateral {
     float: none;
     text-align: center;
