@@ -44,17 +44,17 @@
           <h3 style="text-align: center">¡Muchas gracias!</h3>
           <br>
           <!--Formulario de contacto-->
-          <form>
-            <label id="etiqueta"><b>Nombre</b></label>
-            <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+          <form action="envia.php" method="post">
+            <label id="etiqueta"><b>Nombre y Apellidos</b></label>
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre y apellidos" required>
             <label><b>Email</b></label>
-            <input type="text" name="email" placeholder="Ingresa tu email">
+            <input type="text" name="email" placeholder="Ingresa tu email" required>
             <br>
             <label><b>Teléfono</b></label>
             <input type="text" name="telefono" placeholder="Ingresa tu teléfono">
             <br>
             <label><b>Comentarios</b></label>
-            <textarea></textarea>
+            <textarea name="comentarios"></textarea>
             <input type="submit" name="enviar" value="Enviar">
           </form>
         </article>
