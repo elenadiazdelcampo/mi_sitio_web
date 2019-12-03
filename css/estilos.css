@@ -275,7 +275,8 @@ article#inicio{
 
 label#etiqueta{
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 10px 0px;
+  margin-bottom: 30px;
 }
 
 /* Servicios */
@@ -362,6 +363,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 } /*Fin Redes sociales abajo*/
 
 /* Estilos para el formulario de contacto */
+label {
+  font-size: 17px;
+}
 
 input, textarea{
   width: 100%;
@@ -369,6 +373,7 @@ input, textarea{
   border: 1px solid gray; 
   margin-bottom: 10px;
   border-radius: 10px;
+  margin-top: 10px;
   
 }
 
@@ -377,9 +382,11 @@ textarea{
 }
 
 input[type='submit']{
-  background-color: #5CBFCD;
+  /*background-color: #5CBFCD;*/
+  background-color: #67A1D8;
   color: #030808;  
   font-weight: bold;
+  font-size: 20px;
 }
 
 /* 7 margin-left: 230px;
