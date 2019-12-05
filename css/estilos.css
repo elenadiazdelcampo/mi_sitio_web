@@ -269,9 +269,10 @@ article#main-col2{
 }
 
 article#main-col3{
-  float: right;
-  width: 20%;
+  float: left;
+  width: 15%;
   padding-top: 50px;
+  margin-left: 100px;
 }
 
 
@@ -1502,4 +1503,19 @@ width:110px;
 button {
     padding: 20px;
     margin-top: 45px;
+    background-color: #67A1D8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: black;
+    border: 2px solid #0016b0;
+    font-weight: 600;
 }
+
+button:hover{
+  color: black;
+    background-color: #CD5C93;
+}
+
+
+
