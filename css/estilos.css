@@ -1352,7 +1352,11 @@ width:110px;
   }
 
   .contene {
-    margin: 20px;
+    padding: 2em 2em 2em 2em;
+  }
+
+  .contene p{
+    font-size: 16px;
   }
   header ul li{
       float: none;
@@ -1391,8 +1395,8 @@ width:110px;
    article#inicio {
     font: 7px;
     padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .flexslider p{
@@ -1407,7 +1411,7 @@ width:110px;
   }
 
   #boletin h1{
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   #boletin form imput[type="email"]{
@@ -1620,3 +1624,17 @@ margin-left: 100px;
   }
 }
 
+
+.contene p{
+    font-size: 18px;
+  }
+
+.contene h1 {
+  font-size: 25px;
+}
+
+.contenedor4{
+  width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
