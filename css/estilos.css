@@ -32,6 +32,13 @@ body{
   float: left;
 }
 
+article#main-col4 {
+    float: left;
+    width: 65%;
+    padding-top: 50px;
+}
+
+
 ul{
   margin: 0;
   padding: 10;
@@ -51,7 +58,7 @@ ul{
   background:#35424a;
   color:#ffffff;
   margin-top:10px;
-  margin-bottom:10px;
+  margin-bottom:15px;
   font-size: 18px;
   text-align: justify;
 
@@ -1713,11 +1720,6 @@ article#main-col2 h1 {
   font-size: 20px;
 }
 
-article#main-col4 {
-    float: left;
-    width: 65%;
-    padding-top: 50px;
-}
 
 article#main-col2 .resaltado{
   color: #CD5C93;
