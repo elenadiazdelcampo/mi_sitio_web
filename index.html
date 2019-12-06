@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Elena Díaz del Campo González-Gallego | Bienvenidos</title>
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Redes sociales lateral
     <link rel="stylesheet" href="RRSSLateral/font.css">
     <link rel="stylesheet" href="RRSSLateral/main.css">-->
@@ -25,20 +27,51 @@
         });
       });
     </script>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
   </head>
   
   <body>
-    <header>
+    <!-- <header>
       <div class="contenedor1"> 
         <div id="marca">
           <h1><span class="resaltado">Elena</span> Díaz del Campo González-Gallego - <span class="resaltado">Ingeniera Informática</span></h1>
         </div>
       </div>
       <br>
-      <!--<hr> -->
-    </header><!--Línea de separación-->
+    </header> -->
+     <div class="init">
+      <div class="contenedor1"> 
+        <div id="marca">
+          <h1><span class="resaltado">Elena</span> Díaz del Campo González-Gallego - <span class="resaltado">Ingeniera Informática</span></h1>
+        </div>
+      </div>
+      <br>
+    </div>
+
+<!--Menú de opciones-->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">INICIO</a>
+      <a href="formacion.html">FORMACIÓN</a>
+      <a href="habilidades.html">CONOCIMIENTOS</a>
+      <a href="portfolio.html">PORTFOLIO</a>
+      <a href="contacto.html">CONTACTO</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <br>
+    </div>
+    <!-- 
     <header>
-      <div class="cont" id="myTopnav"> <!--Menú de opciones-->
+      <div class="cont" id="myTopnav"> 
         <nav>
           <ul>
             <li class="actual" ><a href="index.html">Inicio</a></li>
@@ -50,7 +83,7 @@
           
         </nav>
       </div>
-    </header>
+    </header> -->
 
     <!-- Carrusel de imágenes-->
     <div class="flexslider">
@@ -144,6 +177,7 @@
       <a href="index.html" style="text-decoration:none"><p style="color: #ffffff">Inicio</p></a>
       <a href="formacion.html" style="text-decoration:none"><p style="color: #ffffff">Formación</p></a>
       <a href="habilidades.html" style="text-decoration:none"><p style="color: #ffffff">Conocimientos</p></a>
+      <a href="habilidades.html" style="text-decoration:none"><p style="color: #ffffff">Portfolio</p></a>
       <a href="contacto.html" style="text-decoration:none"><p style="color: #ffffff">Contacto</p></a>
     </footer>
     <!-- Segundo footer-->
