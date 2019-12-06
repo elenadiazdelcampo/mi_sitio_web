@@ -1435,6 +1435,11 @@ width:110px;
     font-size: 18px;
 }
 
+.topnav a {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
 }
 
 
