@@ -1594,6 +1594,11 @@ margin-left: 100px;
     float: right;
     display: block;
   }
+
+  .topnav a {
+    font-size: 20px;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
