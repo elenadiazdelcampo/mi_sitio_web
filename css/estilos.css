@@ -1712,3 +1712,13 @@ margin-left: 100px;
 article#main-col2 h1 {
   font-size: 20px;
 }
+
+article#main-col4 {
+    float: left;
+    width: 65%;
+    padding-top: 50px;
+}
+
+article#main-col2 .resaltado{
+  color: #CD5C93;
+}
