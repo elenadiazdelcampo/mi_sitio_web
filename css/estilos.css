@@ -15,8 +15,8 @@ body{
 }
 
 .contenedor2{
-  width: 100%;
-  margin: 10px 30px 10px 260px;
+  width: 70%;
+  margin: 10px 0px 10px 400px;
   overflow: hidden;
 }
 
@@ -1671,6 +1671,18 @@ margin-left: 100px;
   display: none;
 }
 
+
+@media (min-width: 770px) and (max-width: 1300px) {
+  .contenedor2 {
+    width: 90%;
+    margin: 10px 20px 10px 20px;
+    overflow: hidden;
+}
+article#main-col {
+    float: left;
+    width: 100%;
+}
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
