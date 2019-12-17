@@ -778,7 +778,7 @@ input[type='submit']{
 }
 @media screen and (min-width: 48em) {
   .accordionItem {
-    max-height: 15em;
+    max-height: 25em;
     -webkit-transition: max-height 0.5s;
     transition: max-height 0.5s;
   }
@@ -1001,6 +1001,10 @@ width:110px;
 
 .line4:after {
   max-width: 30%;
+}
+
+.line5:after {
+  max-width: 80%;
 }
 
 .linee{
@@ -1264,6 +1268,8 @@ width:110px;
     width: 100%;
   }
 
+
+
   header{
     padding-bottom: 20px;
   }
@@ -1381,8 +1387,8 @@ width:110px;
   }
 
   .lineeeee, .linee, .liine, .liiine, .lineeee, .lineee, .line {
-        min-width: 300px;
-        max-width: 300px;
+        min-width: 280px;
+        max-width: 280px;
   }
 
   .rede{
@@ -1673,6 +1679,13 @@ margin-left: 100px;
 }
 
 
+@media (min-width: 405px) and (max-width: 420px) {
+   .lineeeee, .linee, .liine, .liiine, .lineeee, .lineee, .line {
+    min-width: 200px;
+    max-width: 350px;
+}
+
+}
 @media (min-width: 770px) and (max-width: 1300px) {
   .contenedor2 {
     width: 90%;
@@ -1682,6 +1695,11 @@ margin-left: 100px;
 article#main-col {
     float: left;
     width: 100%;
+}
+
+.lineeeee, .linee, .liine, .liiine, .lineeee, .lineee, .line {
+    min-width: 700px;
+    max-width: 950px;
 }
 }
 @media screen and (max-width: 600px) {
