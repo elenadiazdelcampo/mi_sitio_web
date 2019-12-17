@@ -1463,7 +1463,7 @@ font-size: 20px;
 }
  article#main-col3 button {
     padding: 10px;
-margin: 0px 0px 160px 7px;
+margin: 0px 0px 280px 7px;
 background-color:
 #67A1D8;
 border-radius: 10px;
@@ -1478,7 +1478,7 @@ font-weight: 600;
   article#main-col3 {
     float: left;
     width: 30%;
-    padding-top: 165px;
+    padding-top: 235px;
     margin-left: 6px;
 }
 
@@ -1602,7 +1602,7 @@ article#main-col4 p {
 
 button {
     padding: 20px;
-    margin-top: 45px;
+    margin-top: 95px;
     background-color: #67A1D8;
     border-radius: 10px;
     font-weight: bold;
@@ -1610,6 +1610,7 @@ button {
     border-color: black;
     border: 2px solid #0016b0;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 button:hover{
@@ -1771,7 +1772,7 @@ font-size: 20px;
 }
  article#main-col3 button {
     padding: 10px;
-margin: 0px 0px 160px 7px;
+margin: 0px 0px 250px 7px;
 background-color:
 #67A1D8;
 border-radius: 10px;
