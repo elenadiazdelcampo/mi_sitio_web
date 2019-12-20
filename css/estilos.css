@@ -1268,8 +1268,10 @@ width:110px;
     width: 100%;
   }
 
-
-
+ 
+  .init h1 {
+    font-size: 22px;
+}
   header{
     padding-bottom: 20px;
   }
@@ -1307,17 +1309,17 @@ width:110px;
   }
 
   .flexslider .flex-caption p{
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .flexslider .flex-caption1 p{
-    font-size: 30px;
+    font-size: 23px;
     top: 10%;
     left: 27%;
   }
 
   .flexslider .flex-caption2 p{
-    font-size: 30px;
+    font-size: 23px;
    top: 10%;
   left: 48%;
   }
@@ -1340,6 +1342,10 @@ width:110px;
   input, textarea{
     width: 98%;
   }
+
+   .miImagen{
+    height: 250px;
+    }
 
 }
 
@@ -1370,6 +1376,13 @@ width:110px;
   .contene p{
     font-size: 10px;
   }
+
+
+   .miImagen{
+    height: 250px;
+    }
+
+
 
   section#team p{
     font-size: 15px;
@@ -1805,7 +1818,7 @@ font-weight: 600;
   article#main-col3 {
     float: left;
     width: 30%;
-    padding-top: 165px;
+    padding-top: 265px;
     margin-left: 6px;
 }
 
