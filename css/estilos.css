@@ -1313,7 +1313,7 @@ width:110px;
   }
 
   .flexslider .flex-caption1 p{
-    font-size: 23px;
+    font-size: 21px;
     top: 10%;
     left: 27%;
   }
@@ -1690,7 +1690,6 @@ margin-left: 100px;
 .topnav .icon {
   display: none;
 }
-
 
 @media (min-width: 405px) and (max-width: 420px) {
    .lineeeee, .linee, .liine, .liiine, .lineeee, .lineee, .line {
